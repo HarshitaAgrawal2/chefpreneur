@@ -1,3 +1,82 @@
-#chefpreneur-logo-div{
-	font-size: 50px;
+.chefpreneur-logo-img{
+	height: 100%;
+	margin-top: 5%;
+}
+.cd{
+	background-color: red;
+	border: 2px solid black;
+}
+
+.register-link{
+
+}
+.ab{
+	color: white;
+	background: black;
+	height: -webkit-fill-available;
+}
+.icons{
+	margin: 20px 10px;
+	float: right;
+}
+.fa{
+	border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook:hover {
+	color: white;
+	text-decoration: none;
+}
+.fa-twitter:hover {
+	color: white;
+	text-decoration: none;
+}
+.fa-linkedin:hover {
+	color: white;
+	text-decoration: none;
+}
+.fa-instagram:hover {
+	color: white;
+	text-decoration: none;
+}
+.fa-snapchat-ghost:hover {
+	color: white;
+	text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-bars{
+	color: black;
+	font-size: 200%;
+}
+#menubtn{
+	border:none;
+	background: none;
+	margin: 5px;	
+}
+
+.alert{
+	width: fit-content;
 }
