@@ -1,6 +1,6 @@
 .chefpreneur-logo-img{
-	height: 100%;
-	margin-top: 5%;
+	height: auto;
+	margin-top: 10%;
 }
 .cd{
 	background-color: red;
@@ -16,9 +16,10 @@
 	height: -webkit-fill-available;
 }
 .icons{
-	margin: 20px 10px;
+	margin: 50px 0px 10px 10px;
 	float: right;
 }
+
 .fa{
 	border-radius: 50%;
 }
@@ -74,9 +75,48 @@
 #menubtn{
 	border:none;
 	background: none;
-	margin: 5px;	
+	margin: 5px;
+	color:white;	
 }
 
 .alert{
 	width: fit-content;
 }
+
+@media only screen and (max-width: 1200px) {
+  	.btnText{
+		font-size: 75%;
+	}
+	
+}
+@media only screen and (max-width: 600px) {
+  	
+	.icons dl dd{
+		display: inline;
+	}
+}
+#menu ul li{
+	background-color: #1F2833;
+	color: white;
+}
+#menu ul li a{
+	color:#66FCF1;	
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	color:#45A29E;
+}
+body{
+	background-color: #1F2833;
+	color:#C5C6C7;
+}
+hr{
+	border-color:#4E4E50;
+}
+.media img{
+	border-radius:10px;
+}
+video{
+	width: 100%;
+}
+
