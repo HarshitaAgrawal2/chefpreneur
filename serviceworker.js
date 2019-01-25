@@ -21,9 +21,10 @@ self.addEventListener('fetch', event => {
     console.log(event);
     const {request} = event;
     const url = new URL(request.url);
-    console.log(mode);
-    if(mode==false) //check if online or offline
-    event.respondWith(cacheData(request)); // if offline we have to check cache
+    if(mode==false){ //check if online or offline
+        console.log("HERE");
+        event.respondWith(cacheData(request)); // if offline we have to check cache
+    }
     else{
         if(url.origin === location.origin) { // if the url that we are searching for is in the domain check cache first
             event.respondWith(cacheData(request));
