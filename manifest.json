@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
-  "start_url": "/chefpreneur/",
+  "start_url": "/chefpreneur/chefpreneur.html/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
