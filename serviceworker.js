@@ -13,7 +13,7 @@ var mode; //used to keep a check whether we are online at this point of time or 
 self.addEventListener('install', async event => {
     // #caches are http caches provided by service worker check Application >Cache > Cache Storage
     const cache = await caches.open('static-def'); // stores the shell part
-    cache.addAll(staticAssets);
+    cache.addAll(staticFiles);
 });
 
 // called whenever fetxh function is called in the client side
